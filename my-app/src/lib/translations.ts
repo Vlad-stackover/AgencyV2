@@ -260,22 +260,22 @@ export const translations = {
       viewAll: "Zobacz wszystkie projekty",
       projects: [
         {
-          title: "Nowoczesna Piekarnia",
-          category: "E-commerce",
+          title: "Serwis Okien - Oknoserw",
+          category: "Usługi",
           description: "Wspaniały sklep online z niestandardowym systemem zamówień",
           results: "+150% zamówień online"
         },
         {
-          title: "Usługi prawne",
-          category: "Usługi profesjonalne",
+          title: "Aqua Ace - Usługi Hydrauliczne",
+          category: "Usługi",
           description: "Profesjonalna strona z integracją portalu klienta",
-          results: "+200% próśb o konsultacje"
+          results: "+200% zleceń"
         },
         {
-          title: "Studio Fitness",
+          title: "Studio Fryzjerskie",
           category: "Lokalna firma",
-          description: "Dynamiczna strona z rezerwacją zajęć i zarządzaniem członkostwem",
-          results: "+85% nowych członków"
+          description: "Dynamiczna strona z systemem rezerwacji",
+          results: "+85% nowych stałych klientów"
         }
       ]
     },
