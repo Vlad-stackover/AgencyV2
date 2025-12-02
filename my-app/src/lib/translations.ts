@@ -57,22 +57,26 @@ export const translations = {
       viewAll: "View All Projects",
       projects: [
         {
-          title: "Modern Bakery",
+          title: "Oknoserw",
           category: "E-commerce",
           description: "A delightful online store with custom ordering system",
-          results: "+150% online orders"
+          results: "+150% online orders",
+          link: 'https://oknoserw.pl'
+
         },
         {
-          title: "Legal Services",
+          title: "Aqua Ace - Plumbing Services,",
           category: "Professional Services",
           description: "Professional website with client portal integration",
-          results: "+200% consultation requests"
+          results: "+200% consultation requests",
+          link: 'https://www.aqua-ace-szczecin.pl'
         },
         {
           title: "Fitness Studio",
           category: "Local Business",
           description: "Dynamic website with class booking and membership management",
-          results: "+85% new memberships"
+          results: "+85% new memberships",
+          link: 'https://oknoserw.pl'
         }
       ]
     },
@@ -137,7 +141,7 @@ export const translations = {
       plans: [
         {
           name: "Starter",
-          price: "$1,999",
+          price: "$1,099",
           description: "Perfect for small businesses getting online",
           features: [
             "5-page custom website",
@@ -151,7 +155,7 @@ export const translations = {
         },
         {
           name: "Professional",
-          price: "$3,499",
+          price: "$2,499",
           description: "Ideal for growing businesses",
           features: [
             "10-page custom website",
@@ -167,7 +171,7 @@ export const translations = {
         },
         {
           name: "Enterprise",
-          price: "$5,999",
+          price: "$6,599",
           description: "For businesses that need more",
           features: [
             "Unlimited pages",
@@ -263,19 +267,22 @@ export const translations = {
           title: "Serwis Okien - Oknoserw",
           category: "Usługi",
           description: "Wspaniały sklep online z niestandardowym systemem zamówień",
-          results: "+150% zamówień online"
+          results: "+200% zleceń",
+          link: 'https://oknoserw.pl'
         },
         {
           title: "Aqua Ace - Usługi Hydrauliczne",
           category: "Usługi",
           description: "Profesjonalna strona z integracją portalu klienta",
-          results: "+200% zleceń"
+          results: "+150% zleceń",
+          link: 'https://www.aqua-ace-szczecin.pl'
         },
         {
           title: "Studio Fryzjerskie",
           category: "Lokalna firma",
           description: "Dynamiczna strona z systemem rezerwacji",
-          results: "+85% nowych stałych klientów"
+          results: "+45% nowych stałych klientów",
+          link: 'https://oknoserw.pl'
         }
       ]
     },
@@ -340,7 +347,7 @@ export const translations = {
       plans: [
         {
           name: "Starter",
-          price: "7 999 zł",
+          price: "3 999 zł",
           description: "Idealne dla małych firm rozpoczynających w sieci",
           features: [
             "Strona o 5 podstronach",
@@ -354,7 +361,7 @@ export const translations = {
         },
         {
           name: "Profesjonalny",
-          price: "13 999 zł",
+          price: "8 999 zł",
           description: "Idealne dla rozwijających się firm",
           features: [
             "Strona o 10 podstronach",
@@ -407,5 +414,5 @@ export const translations = {
   }
 };
 
-export type Language = 'en' | 'pl';
-export type TranslationKey = typeof translations.en;
+export type Language = 'pl' | 'en';
+export type TranslationKey = typeof translations.pl;

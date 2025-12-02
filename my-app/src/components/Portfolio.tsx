@@ -2,6 +2,7 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { ExternalLink } from "lucide-react";
 import { Button } from "./ui/button";
 import { useLanguage } from "../contexts/LanguageContext";
+import { Link } from "lucide-react";
 
 const projectImages = [
   "https://images.unsplash.com/photo-1603985585179-3d71c35a537c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzYyODUxNTAyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
@@ -11,7 +12,7 @@ const projectImages = [
 
 export function Portfolio() {
   const { t } = useLanguage();
-  
+
   return (
     <section id="portfolio" className="py-24 bg-slate-50">
       <div className="container mx-auto px-6">
@@ -29,7 +30,7 @@ export function Portfolio() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {t.portfolio.projects.map((project, index) => (
-            <div 
+            <div
               key={index}
               className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300"
             >
@@ -41,9 +42,13 @@ export function Portfolio() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
                   <div className="absolute bottom-4 right-4">
-                    <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-                      <ExternalLink className="h-5 w-5 text-slate-900" />
-                    </div>
+                    
+                      <a href={project.link} target="_blank" rel="noopener noreferrer">
+                        <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
+                          <ExternalLink className="h-5 w-5 text-slate-900" />
+                        </div>
+                      </a>
+                    
                   </div>
                 </div>
               </div>
