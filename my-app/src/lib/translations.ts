@@ -54,7 +54,7 @@ export const translations = {
       badge: "Our Work",
       title: "Real Results for Real Businesses",
       subtitle: "See how we've helped small businesses like yours grow their online presence.",
-      viewAll: "View All Projects",
+      viewAll: "Be Next",
       projects: [
         {
           title: "Oknoserw",
@@ -72,11 +72,11 @@ export const translations = {
           link: 'https://www.aqua-ace-szczecin.pl'
         },
         {
-          title: "Fitness Studio",
+          title: "Barber shop",
           category: "Local Business",
           description: "Dynamic website with class booking and membership management",
           results: "+85% new memberships",
-          link: 'https://oknoserw.pl'
+          link: 'https://booking-local.vercel.app'
         }
       ]
     },
@@ -261,7 +261,7 @@ export const translations = {
       badge: "Nasze prace",
       title: "Prawdziwe rezultaty dla prawdziwych firm",
       subtitle: "Zobacz, jak pomogliśmy małym firmom takim jak Twoja rozwinąć obecność online.",
-      viewAll: "Zobacz wszystkie projekty",
+      viewAll: "Bądź następny",
       projects: [
         {
           title: "Serwis Okien - Oknoserw",
@@ -282,7 +282,7 @@ export const translations = {
           category: "Lokalna firma",
           description: "Dynamiczna strona z systemem rezerwacji",
           results: "+45% nowych stałych klientów",
-          link: 'https://oknoserw.pl'
+          link: 'https://booking-local.vercel.app'
         }
       ]
     },
@@ -319,13 +319,13 @@ export const translations = {
       subtitle: "Nie wierz nam na słowo. Oto co mówią nasi klienci.",
       items: [
         {
-          name: "Sarah Johnson",
-          role: "Właścicielka, Sweet Treats Bakery",
+          name: "Paweł Nowicki",
+          role: "Właściciel Firmy Usługowej ",
           content: "WebCraft przekształcił naszą obecność online. Nasza nowa strona jest piękna i odnotowaliśmy wzrost zamówień online o 150%. Zespół był profesjonalny i dostarczył dokładnie to, czego potrzebowaliśmy."
         },
         {
-          name: "Michael Chen",
-          role: "Partner zarządzający, Chen & Associates Law",
+          name: "Marta Zielińska",
+          role: "Partner zarządzający, Kancelaria Prawna",
           content: "Jako kancelaria prawna potrzebowaliśmy strony, która buduje zaufanie i profesjonalizm. WebCraft dostarczył ponad nasze oczekiwania. Nasze prośby o konsultacje podwoiły się od momentu uruchomienia."
         },
         {

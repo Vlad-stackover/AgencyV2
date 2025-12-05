@@ -6,7 +6,7 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 
 export function Hero() {
   const { t } = useLanguage();
-  
+
   return (
     <div className="relative overflow-hidden bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Navigation */}
@@ -21,7 +21,12 @@ export function Hero() {
             <a href="#portfolio" className="text-slate-600 hover:text-slate-900 transition-colors">{t.nav.portfolio}</a>
             <a href="#pricing" className="text-slate-600 hover:text-slate-900 transition-colors">{t.nav.pricing}</a>
             <LanguageSwitcher />
-            <Button variant="default">{t.nav.getStarted}</Button>
+            <a
+              href="mailto:gruzinvlad96@gmail.com?subject=Zapytanie%20WebCraft"
+            >
+              <Button variant="default">{t.nav.getStarted}</Button>
+            </a>
+
           </div>
         </div>
       </nav>
@@ -34,24 +39,30 @@ export function Hero() {
               <Sparkles className="h-4 w-4" />
               <span className="text-sm">{t.hero.badge}</span>
             </div>
-            
+
             <h1 className="text-5xl lg:text-6xl text-slate-900">
               {t.hero.title}{" "}
               <span className="text-blue-600">{t.hero.titleHighlight}</span>
             </h1>
-            
+
             <p className="text-xl text-slate-600">
               {t.hero.subtitle}
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="gap-2">
-                {t.hero.startProject}
-                <ArrowRight className="h-5 w-5" />
-              </Button>
-              <Button size="lg" variant="outline">
-                {t.hero.viewWork}
-              </Button>
+              <a
+                href="mailto:gruzinvlad96@gmail.com?subject=Zapytanie%20WebCraft"
+              >
+                <Button size="lg" className="gap-2">
+                  {t.hero.startProject}
+                  <ArrowRight className="h-5 w-5" />
+                </Button>
+              </a>
+              <a href="#portfolio">
+                <Button size="lg" variant="outline">
+                  {t.hero.viewWork}
+                </Button>
+              </a>
             </div>
 
             <div className="flex items-center gap-8 pt-8">

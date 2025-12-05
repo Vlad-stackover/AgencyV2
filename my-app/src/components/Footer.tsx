@@ -66,7 +66,7 @@ export function Footer() {
           </p>
           <div className="flex gap-6 text-sm">
             {t.footer.legal.map((link, index) => (
-              <a key={index} href="#" className="hover:text-white transition-colors">{link}</a>
+              <a key={index} href={'../privacy'} className="hover:text-white transition-colors">{link}</a>
             ))}
           </div>
         </div>

@@ -4,7 +4,7 @@ import { useLanguage } from "../contexts/LanguageContext";
 
 export function CTA() {
   const { t } = useLanguage();
-  
+
   return (
     <section className="py-24 bg-gradient-to-br from-blue-600 to-blue-700">
       <div className="container mx-auto px-6">
@@ -17,23 +17,29 @@ export function CTA() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" variant="secondary" className="gap-2">
-              {t.cta.scheduleConsultation}
-              <ArrowRight className="h-5 w-5" />
-            </Button>
-            <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white/10">
-              {t.cta.viewPortfolio}
-            </Button>
+            <a
+              href="mailto:gruzinvlad96@gmail.com?subject=Zapytanie%20WebCraft"
+            >
+              <Button size="lg" variant="secondary" className="gap-2">
+                {t.cta.scheduleConsultation}
+                <ArrowRight className="h-5 w-5" />
+              </Button>
+            </a>
+            <a href="#portfolio">
+              <Button size="lg" variant="outline" className="bg-transparent border-white text-white hover:bg-white/10">
+                {t.cta.viewPortfolio}
+              </Button>
+            </a>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-8 pt-8 border-t border-blue-500">
-            <a href="mailto:hello@webcraft.com" className="flex items-center gap-3 text-blue-100 hover:text-white transition-colors">
+            <a href="mailto:gruzinvlad96@gmail.com" className="flex items-center gap-3 text-blue-100 hover:text-white transition-colors">
               <Mail className="h-5 w-5" />
-              hello@webcraft.com
+              gruzinvlad96@gmail.com
             </a>
-            <a href="tel:+1234567890" className="flex items-center gap-3 text-blue-100 hover:text-white transition-colors">
+            <a href="tel:+48739562035" className="flex items-center gap-3 text-blue-100 hover:text-white transition-colors">
               <Phone className="h-5 w-5" />
-              (123) 456-7890
+              +48 739-562-035
             </a>
           </div>
         </div>
