@@ -6,7 +6,7 @@ export function CTA() {
   const { t } = useLanguage();
 
   return (
-    <section className="py-24 bg-gradient-to-br from-blue-600 to-blue-700">
+    <section className="py-24 bg-gradient-to-br from-blue-600 to-blue-700" id="contact">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl lg:text-5xl text-white mb-6">
