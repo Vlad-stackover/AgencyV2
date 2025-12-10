@@ -140,19 +140,22 @@ export const translations = {
       customNoteSuffix: "for a personalized quote.",
       plans: [
         {
-          name: "Starter",
-          price: "$1,099",
-          description: "Perfect for small businesses getting online",
+          name: "Landing Page",
+          price: "$599",
+          description: "A modern, high-converting one-page website focused on driving results",
           features: [
-            "5-page custom website",
-            "Mobile responsive design",
+            "Single-page layout (one-page)",
+            "Professional and responsive design",
+            "Sections tailored to your business goals (hero, offer, testimonials, CTA)",
+            "Optimized for fast loading",
             "Basic SEO optimization",
-            "Contact form integration",
-            "2 rounds of revisions",
-            "14-day delivery",
-            "30 days of support"
+            "Integration of a contact form or CTA",
+            "1 revision round",
+            "Delivered within 7 days",
+            "14 days of post-launch support"
           ]
         },
+
         {
           name: "Professional",
           price: "$2,499",
@@ -346,19 +349,21 @@ export const translations = {
       customNoteSuffix: "aby otrzymać spersonalizowaną wycenę.",
       plans: [
         {
-          name: "Starter",
-          price: "3 999 zł",
-          description: "Idealne dla małych firm rozpoczynających w sieci",
+          name: "Landing Page",
+          price: "1 999 zł",
+          description: "Skuteczna, nowoczesna strona typu one-page nastawiona na konwersję",
           features: [
-            "Strona o 5 podstronach",
-            "Responsywny design",
+            "Jednostronicowy layout (one-page)",
+            "Sekcje dopasowane do celu biznesowego (hero, oferta, opinie, CTA)",
+            "Optymalizacja pod szybkie ładowanie",
             "Podstawowa optymalizacja SEO",
-            "Integracja formularza kontaktowego",
-            "2 rundy poprawek",
-            "Realizacja w 14 dni",
-            "30 dni wsparcia"
+            "Integracja formularza kontaktowego lub CTA",
+            "1 runda poprawek",
+            "Realizacja w 7 dni",
+            "14 dni wsparcia po wdrożeniu"
           ]
         },
+
         {
           name: "Profesjonalny",
           price: "8 999 zł",
