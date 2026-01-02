@@ -14,7 +14,7 @@ export function Hero() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Sparkles className="h-8 w-8 text-blue-600" />
-            <span className="text-xl text-slate-900">WebCraft</span>
+            <span className="text-xl text-slate-900">Adeo</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#services" className="text-slate-600 hover:text-slate-900 transition-colors">{t.nav.services}</a>
