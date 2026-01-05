@@ -10,6 +10,8 @@ export function Hero() {
   return (
     <div className="relative overflow-hidden bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Navigation */}
+    
+
       <nav className="container mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
@@ -21,15 +23,19 @@ export function Hero() {
             <a href="#portfolio" className="text-slate-600 hover:text-slate-900 transition-colors">{t.nav.portfolio}</a>
             <a href="#pricing" className="text-slate-600 hover:text-slate-900 transition-colors">{t.nav.pricing}</a>
             <LanguageSwitcher />
-            <a
+           
+
+          </div>
+          <div className="hidden md:flex items-center gap-8">
+             <a
               href="mailto:gruzinvlad96@gmail.com?subject=Zapytanie%20WebCraft"
             >
               <Button variant="default">{t.nav.getStarted}</Button>
             </a>
-
           </div>
         </div>
       </nav>
+      <hr />
 
       {/* Hero Content */}
       <div className="container mx-auto px-6 py-20 lg:py-32">
