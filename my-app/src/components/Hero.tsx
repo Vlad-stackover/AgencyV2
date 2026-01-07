@@ -64,7 +64,7 @@ export function Hero() {
                   <ArrowRight className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="#portfolio">
+              <a href="/portfolio">
                 <Button size="lg" variant="outline">
                   {t.hero.viewWork}
                 </Button>

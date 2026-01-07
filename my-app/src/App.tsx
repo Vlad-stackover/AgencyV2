@@ -10,7 +10,10 @@ import { Footer } from "./components/Footer";
 import { LanguageProvider } from "./contexts/LanguageContext";
 
 // Subpages
-import Privacy from "./pages/Privacy";
+import PrivacyPage from "./pages/Privacy";
+import PortfolioPage from "./pages/Portfolio";
+import ProcesPage from "./pages/Proces";
+import ServicesPage from "./pages/Services";
 
 
 export default function App() {
@@ -35,7 +38,10 @@ export default function App() {
         />
 
         {/* Subpages */}
-        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/privacy" element={<PrivacyPage />} />
+        <Route path="/portfolio" element={<PortfolioPage />} />
+        <Route path="/proces" element={<ProcesPage />} />
+        <Route path="/services" element={<ServicesPage />} />
         
       </Routes>
     </LanguageProvider>

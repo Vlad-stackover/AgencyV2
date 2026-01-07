@@ -26,11 +26,14 @@ export function Pricing() {
             return (
               <div 
                 key={index}
-                className={`relative p-8 rounded-2xl border-2 ${
-                  isPopular 
-                    ? 'border-blue-600 shadow-2xl scale-105' 
-                    : 'border-slate-200'
-                }`}
+                className={`relative p-8 rounded-2xl border-2 transition-all duration-300 cursor-pointer
+                  ${
+                    isPopular
+                      ? 'border-blue-600 shadow-2xl scale-105'
+                      : 'border-slate-200 hover:border-blue-300 hover:shadow-xl hover:-translate-y-1'
+                  }
+                `}
+
               >
                 {isPopular && (
                   <div className="absolute -top-4 left-1/2 -translate-x-1/2 px-4 py-1 bg-blue-600 text-white rounded-full text-sm">
